@@ -1,4 +1,4 @@
-0.40.0+x41 (2020-01-06)
+0.40.0+x4 (2020-01-06)
 *******************
 Apply security update CVE-2019-19844 on 0.40.0 release as we're still using Django<2.
 
