@@ -8,11 +8,11 @@ r"""
 
 """
 
-VERSION = (0, 40, 0, 'final', 0)
+VERSION = (0, 40, 0, 'x', 41)
 
 __title__ = 'django-allauth'
 __version_info__ = VERSION
-__version__ = '.'.join(map(str, VERSION[:3])) + ('-{}{}'.format(
+__version__ = '.'.join(map(str, VERSION[:3])) + ('+{}{}'.format(
     VERSION[3], VERSION[4] or '') if VERSION[3] != 'final' else '')
 __author__ = 'Raymond Penners'
 __license__ = 'MIT'
